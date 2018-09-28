@@ -1,15 +1,25 @@
 {
-  "posts": [
+  "users": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Mehdi",
+      "password": "motdepasse"
     }
   ],
-  "comments": [
+  "messages": [
     {
       "id": 1,
-      "body": "some comment",
+      "body": "Premier message",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "mon test numéro 2",
+      "postId": 1
+    },
+    {
+      "id": 3,
+      "body": "yes y a que moi qui peux mettre des messages",
       "postId": 1
     }
   ],
